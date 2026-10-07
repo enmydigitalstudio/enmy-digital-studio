@@ -5,3 +5,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
 .contact .button-secondary{background:transparent;color:var(--lime);border:1px solid var(--lime);margin-top:12px}.contact .button-secondary:hover{background:transparent;color:#e2f7ab;border-color:#e2f7ab}
+
+/* Brasa 27: portada tipografica dentro del sistema visual del estudio. */
+.brasa{background:var(--ink);color:var(--bg);display:flex;flex-direction:column;justify-content:space-between}.brasa>div{margin:0;text-align:left;font-family:Georgia,serif;font-size:clamp(42px,6vw,88px);letter-spacing:-3px;line-height:1}.brasa>div>small{color:var(--lime);font-size:10px;letter-spacing:3px;margin-top:20px}.brasa>span{position:static;border-top:1px solid #596355;padding-top:16px;font-size:8px;letter-spacing:1px}.project-brasa .text-link{margin-top:2px}
